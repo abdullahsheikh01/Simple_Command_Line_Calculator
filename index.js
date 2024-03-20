@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
+console.log("Calculator Start");
 const calc = await inquirer.prompt([
     {
         message: "Enter First Number to perform operation",
@@ -33,3 +34,4 @@ else if (calc.operator === "Division") {
 else {
     console.log("Invalid operator found!");
 }
+console.log("Calculator End");

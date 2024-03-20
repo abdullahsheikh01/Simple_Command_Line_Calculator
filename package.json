@@ -1,6 +1,6 @@
 {
   "name": "calculator-6600",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "This is simple command line calculator.",
   "main": "index.js",
   "type": "module",
@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ab coder",
+  "author": "Abdullah Sheikh",
   "license": "MIT",
   "dependencies": {
     "inquirer": "^9.2.16"
